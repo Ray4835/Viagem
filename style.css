@@ -14,7 +14,7 @@ body {
 
 header {
   height: calc(100vh - 150px);
-  background: url("assets/img/header.jpg") no-repeat center/cover;
+  background: url("header.jpg") no-repeat center/cover;
   max-width: 100%;
 }
 
@@ -273,17 +273,12 @@ button:hover {
 .contato iframe {
   margin: 0 auto;
 }
-
-/* Responsividade */
-
-/* Landscape TABLETS and down */
 @media (max-width: 1139px) {
   .contato .contato-card {
     margin: 20px auto;
   }
 }
 
-/* Landscape phones and down */
 
 @media (max-width: 480px) {
   body {
